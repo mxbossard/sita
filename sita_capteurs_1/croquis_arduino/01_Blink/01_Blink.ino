@@ -22,10 +22,6 @@
   http://www.arduino.cc/en/Tutorial/Blink
 */
 
-// FR: déclare la constante "LED_BUILTIN" comme une variable numérique entière de valeur 13. 
-// FR: Cette constante sera utilisée pour nommer le port de sortie de la LED.
-const int LED_BUILTIN = 13;
-
 // the setup function runs once when you press reset or power the board
 // FR: La fonction setup est exécutée une seule et unique fois après avoir appuyé sur le bouton reset ou allumé l'Arduino
 void setup() {
