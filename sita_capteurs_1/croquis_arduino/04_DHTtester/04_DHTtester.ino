@@ -1,11 +1,12 @@
-// Example testing sketch for various DHT humidity/temperature sensors
-// Written by ladyada, public domain
+// Tous le texte après les caractères // sont des commentaires. Ces textes ne sont pas du code exécuté, ils servent à clarifier le code.
 
-// REQUIRES the following Arduino libraries:
-// - DHT Sensor Library: https://github.com/adafruit/DHT-sensor-library
-// - Adafruit Unified Sensor Lib: https://github.com/adafruit/Adafruit_Sensor
+// REQUIERE les bibliotheques Arduino suivantes:
+// - Bibliothèque "DHT Sensor Library": https://github.com/adafruit/DHT-sensor-library
+// - Bibliothèque "Adafruit Unified Sensor": https://github.com/adafruit/Adafruit_Sensor
 
-#include "DHT.h"
+// Pour télecharger les bibliothèques, il faut disposer d'une version du logiciel Arduino récente. Dans les versions récentes, il est possible de télecharger des bibliothèques via le menu Outils > Gérer les bilbiothèques, puis recherchez le nom d'une bibliothèque dans le champ en haut à droite.
+
+#include "DHT.h" // Inclus la bibliothèque "DHT.h"
 
 #define DHTPIN 3     // Digital pin connected to the DHT sensor
 // Feather HUZZAH ESP8266 note: use pins 3, 4, 5, 12, 13 or 14 --
